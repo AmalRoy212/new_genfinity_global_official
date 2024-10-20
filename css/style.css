@@ -49,6 +49,20 @@ html {
   width: 100%;
 }
 
+.carousel-image {
+  /* height: 100vh; */
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .carousel-image {
+      height: 50vh;
+  }
+}
+
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
