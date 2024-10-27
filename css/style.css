@@ -55,10 +55,24 @@ html {
   object-fit: contain;
 }
 
+.vidoe-holder {
+  width: 50% !important;
+}
+
+.vd-section{
+  height: auto;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .carousel-image {
       height: 50vh;
+  }
+  .vidoe-holder {
+    width: 100% !important;
+  }
+  .vd-section{
+    height: 100vh;
   }
 }
 
